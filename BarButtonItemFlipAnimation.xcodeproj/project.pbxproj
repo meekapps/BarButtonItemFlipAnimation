@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4109999A15255034001CB50A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4109999915255034001CB50A /* UIKit.framework */; };
+		4109999C15255034001CB50A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4109999B15255034001CB50A /* Foundation.framework */; };
+		4109999E15255034001CB50A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4109999D15255034001CB50A /* CoreGraphics.framework */; };
+		410999A415255034001CB50A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 410999A215255034001CB50A /* InfoPlist.strings */; };
+		410999A615255034001CB50A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 410999A515255034001CB50A /* main.m */; };
+		410999AA15255034001CB50A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 410999A915255034001CB50A /* AppDelegate.m */; };
+		410999AD15255034001CB50A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410999AC15255034001CB50A /* ViewController.m */; };
+		410999B015255034001CB50A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410999AE15255034001CB50A /* ViewController.xib */; };
+		410999B7152551AD001CB50A /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 410999B6152551AD001CB50A /* icon57.png */; };
+		410999B9152551B0001CB50A /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 410999B8152551B0001CB50A /* icon114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4109999515255034001CB50A /* BarButtonItemFlipAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarButtonItemFlipAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4109999915255034001CB50A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4109999B15255034001CB50A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4109999D15255034001CB50A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		410999A115255034001CB50A /* BarButtonItemFlipAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarButtonItemFlipAnimation-Info.plist"; sourceTree = "<group>"; };
+		410999A315255034001CB50A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		410999A515255034001CB50A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		410999A715255034001CB50A /* BarButtonItemFlipAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarButtonItemFlipAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		410999A815255034001CB50A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		410999A915255034001CB50A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		410999AB15255034001CB50A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		410999AC15255034001CB50A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		410999AF15255034001CB50A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		410999B6152551AD001CB50A /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		410999B8152551B0001CB50A /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4109999215255034001CB50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4109999A15255034001CB50A /* UIKit.framework in Frameworks */,
+				4109999C15255034001CB50A /* Foundation.framework in Frameworks */,
+				4109999E15255034001CB50A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4109998A15255034001CB50A = {
+			isa = PBXGroup;
+			children = (
+				410999B8152551B0001CB50A /* icon114.png */,
+				410999B6152551AD001CB50A /* icon57.png */,
+				4109999F15255034001CB50A /* BarButtonItemFlipAnimation */,
+				4109999815255034001CB50A /* Frameworks */,
+				4109999615255034001CB50A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4109999615255034001CB50A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4109999515255034001CB50A /* BarButtonItemFlipAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4109999815255034001CB50A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4109999915255034001CB50A /* UIKit.framework */,
+				4109999B15255034001CB50A /* Foundation.framework */,
+				4109999D15255034001CB50A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4109999F15255034001CB50A /* BarButtonItemFlipAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				410999A815255034001CB50A /* AppDelegate.h */,
+				410999A915255034001CB50A /* AppDelegate.m */,
+				410999AB15255034001CB50A /* ViewController.h */,
+				410999AC15255034001CB50A /* ViewController.m */,
+				410999AE15255034001CB50A /* ViewController.xib */,
+				410999A015255034001CB50A /* Supporting Files */,
+			);
+			path = BarButtonItemFlipAnimation;
+			sourceTree = "<group>";
+		};
+		410999A015255034001CB50A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				410999A115255034001CB50A /* BarButtonItemFlipAnimation-Info.plist */,
+				410999A215255034001CB50A /* InfoPlist.strings */,
+				410999A515255034001CB50A /* main.m */,
+				410999A715255034001CB50A /* BarButtonItemFlipAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4109999415255034001CB50A /* BarButtonItemFlipAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410999B315255034001CB50A /* Build configuration list for PBXNativeTarget "BarButtonItemFlipAnimation" */;
+			buildPhases = (
+				4109999115255034001CB50A /* Sources */,
+				4109999215255034001CB50A /* Frameworks */,
+				4109999315255034001CB50A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarButtonItemFlipAnimation;
+			productName = BarButtonItemFlipAnimation;
+			productReference = 4109999515255034001CB50A /* BarButtonItemFlipAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4109998C15255034001CB50A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4109998F15255034001CB50A /* Build configuration list for PBXProject "BarButtonItemFlipAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4109998A15255034001CB50A;
+			productRefGroup = 4109999615255034001CB50A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4109999415255034001CB50A /* BarButtonItemFlipAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4109999315255034001CB50A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410999A415255034001CB50A /* InfoPlist.strings in Resources */,
+				410999B015255034001CB50A /* ViewController.xib in Resources */,
+				410999B7152551AD001CB50A /* icon57.png in Resources */,
+				410999B9152551B0001CB50A /* icon114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4109999115255034001CB50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410999A615255034001CB50A /* main.m in Sources */,
+				410999AA15255034001CB50A /* AppDelegate.m in Sources */,
+				410999AD15255034001CB50A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		410999A215255034001CB50A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410999A315255034001CB50A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		410999AE15255034001CB50A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410999AF15255034001CB50A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410999B115255034001CB50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		410999B215255034001CB50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410999B415255034001CB50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarButtonItemFlipAnimation/BarButtonItemFlipAnimation-Prefix.pch";
+				INFOPLIST_FILE = "BarButtonItemFlipAnimation/BarButtonItemFlipAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		410999B515255034001CB50A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarButtonItemFlipAnimation/BarButtonItemFlipAnimation-Prefix.pch";
+				INFOPLIST_FILE = "BarButtonItemFlipAnimation/BarButtonItemFlipAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4109998F15255034001CB50A /* Build configuration list for PBXProject "BarButtonItemFlipAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410999B115255034001CB50A /* Debug */,
+				410999B215255034001CB50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410999B315255034001CB50A /* Build configuration list for PBXNativeTarget "BarButtonItemFlipAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410999B415255034001CB50A /* Debug */,
+				410999B515255034001CB50A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4109998C15255034001CB50A /* Project object */;
+}
