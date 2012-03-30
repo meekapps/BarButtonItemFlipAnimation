@@ -1,0 +1,8 @@
+BarButtonItemFlipAnimation
+==========================
+
+Demonstrates a very basic test case for transitioning between two full-screen
+views and flipping the bar button item in parallel (like the Music/iPod app).
+
+Obviously, this can be embellished upon by using custom graphics rather than 
+solid color UIViews :)
